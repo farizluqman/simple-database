@@ -5,10 +5,10 @@ Pak Mail just need to record his sales to a database. He also need to calculate 
 
 ### Key Features
 
-  1. Login system (module-login)
-  2. Adding a new record (module-addrecord)
-  2. Editing a record (module-edit)
-  3. Deleting a record (module-delete)
+  1. Login system ([module-login](https://github.com/farizluqman/simple-database/blob/master/module-login.vb))
+  2. Adding a new record ([module-addrecord](https://github.com/farizluqman/simple-database/blob/master/module-addrecord.vb))
+  2. Editing a record ([module-edit](https://github.com/farizluqman/simple-database/blob/master/module-edit.vb))
+  3. Deleting a record ([module-delete](https://github.com/farizluqman/simple-database/blob/master/module-login.vb))
 
 ### Screenies
 
