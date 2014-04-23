@@ -8,7 +8,7 @@ Module module_addrecord
             Dim connection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Database.mdb;")
             connection.Open()
             ' Declare what command to be executed when the function started
-            Dim command As New OleDbCommand("INSERT INTO tblMenu (Menu, Price, Quantity) VALUES (inmenu, inprice, inquantity)", connection)
+            Dim command As New OleDbCommand("INSERT INTO tblMenu ([Menu], [Price], [Quantity]) VALUES (inmenu, inprice, inquantity)", connection)
             command.Parameters.AddWithValue("inmenu", menu)
             command.Parameters.AddWithValue("inprice", price)
             command.Parameters.AddWithValue("inquantity", quantity)
